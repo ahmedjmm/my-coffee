@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/storageFragment">
+    <fragment
+        android:id="@+id/browserFragment"
+        android:name="com.example.mycoffee.ui.fragments.BrowserFragment"
+        android:label="BrowserFragment" />
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="com.example.mycoffee.ui.fragments.GalleryFragment"
+        android:label="GalleryFragment" />
+    <fragment
+        android:id="@+id/musicFragment"
+        android:name="com.example.mycoffee.ui.fragments.MusicFragment"
+        android:label="MusicFragment" />
+    <fragment
+        android:id="@+id/storageFragment"
+        android:name="com.example.mycoffee.ui.fragments.MemoryFragment"
+        android:label="StorageFragment" />
+</navigation>
